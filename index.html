@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy / Política de Privacidade – Vagner Bom Jesus</title>
+    <meta name="description" content="Privacy Policy for all applications developed by Vagner Bom Jesus. Política de Privacidade aplicável a todas as aplicações desenvolvidas por Vagner Bom Jesus.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root{
+            --primary:#0B5ED7;
+            --primary-light:#2FA4FF;
+            --primary-dark:#0A4CAF;
+            --bg:#FFFFFF;
+            --bg-section:#EAF4FF;
+            --bg-card:#FFFFFF;
+            --bg-code:#EAF4FF;
+            --text:#111827;
+            --text-secondary:#6B7280;
+            --text-muted:#9CA3AF;
+            --border:#D1E3F6;
+            --border-light:#E5EFF9;
+            --shadow-sm:0 1px 3px rgba(11,94,215,.06);
+            --shadow-md:0 4px 16px rgba(11,94,215,.08);
+            --shadow-lg:0 8px 32px rgba(11,94,215,.12);
+            --radius:12px;
+            --radius-sm:8px;
+            --radius-lg:20px;
+            --font-display:'DM Serif Display',Georgia,serif;
+            --font-body:'Source Sans 3',-apple-system,sans-serif;
+            --font-mono:'JetBrains Mono',monospace
+        }
+        *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{font-family:var(--font-body);color:var(--text);background:var(--bg);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+
+        .hdr{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--border-light);transition:box-shadow .3s}.hdr.scrolled{box-shadow:var(--shadow-md)}.hdr-in{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:72px}
+        .logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--text)}.logo-img{width:42px;height:42px;border-radius:10px;object-fit:contain}.logo-t{font-family:var(--font-display);font-size:18px}.logo-s{font-size:11px;color:var(--text-muted);font-weight:500;letter-spacing:.03em;text-transform:uppercase}.logo-w{display:flex;flex-direction:column}
+        .ls{display:flex;gap:4px;background:var(--bg-section);border-radius:8px;padding:3px}.lb{padding:6px 16px;border:none;background:none;border-radius:6px;cursor:pointer;font-family:var(--font-body);font-weight:600;font-size:13px;color:var(--text-muted);transition:all .25s;letter-spacing:.03em}.lb.active{background:#fff;color:var(--primary);box-shadow:var(--shadow-sm)}.lb:hover:not(.active){color:var(--text)}
+
+        .hero{background:linear-gradient(160deg,var(--primary-dark) 0%,var(--primary) 50%,var(--primary-light) 100%);padding:80px 24px 64px;position:relative;overflow:hidden}.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23fff' fill-opacity='.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}.hero::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:48px;background:var(--bg);clip-path:ellipse(55% 100% at 50% 100%)}
+        .hero-in{max-width:800px;margin:0 auto;text-align:center;position:relative;z-index:1}
+        .hero-logo{width:80px;height:80px;border-radius:20px;margin:0 auto 20px;object-fit:contain;animation:fid .6s ease;filter:drop-shadow(0 4px 12px rgba(0,0,0,.2))}
+        .hb{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.2);padding:6px 16px;border-radius:50px;margin-bottom:24px;animation:fid .6s}.hb span{color:rgba(255,255,255,.9);font-size:13px;font-weight:500;letter-spacing:.04em}.hb .dot{width:6px;height:6px;background:#fff;border-radius:50%}
+        .hero h1{font-family:var(--font-display);font-size:clamp(32px,5vw,48px);color:#fff;line-height:1.15;margin-bottom:16px;animation:fiu .6s ease .1s both}.hero p{color:rgba(255,255,255,.85);font-size:18px;max-width:600px;margin:0 auto 32px;animation:fiu .6s ease .2s both}
+        .hm{display:flex;justify-content:center;gap:32px;flex-wrap:wrap;animation:fiu .6s ease .3s both}.hmi{display:flex;flex-direction:column;align-items:center;gap:2px}.hmi .l{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.55);font-weight:600}.hmi .v{font-size:14px;color:rgba(255,255,255,.95);font-weight:600}
+
+        .ml{max-width:1200px;margin:0 auto;padding:48px 24px 80px;display:grid;grid-template-columns:280px 1fr;gap:48px}
+        .sb{position:sticky;top:96px;height:fit-content;max-height:calc(100vh - 120px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--border) transparent}.tt{font-family:var(--font-display);font-size:16px;color:var(--text);margin-bottom:16px;padding-bottom:12px;border-bottom:2px solid var(--primary);display:inline-block}.tl{list-style:none}.tl li{margin-bottom:2px}.tl a{display:block;padding:7px 12px;font-size:13.5px;color:var(--text-secondary);text-decoration:none;border-radius:var(--radius-sm);border-left:2px solid transparent;transition:all .2s;line-height:1.4}.tl a:hover{color:var(--primary);background:rgba(11,94,215,.04)}.tl a.active{color:var(--primary);background:rgba(11,94,215,.06);border-left-color:var(--primary);font-weight:600}
+        .ct{min-width:0}.lc{display:none}.lc.active{display:block}
+        .sc{background:var(--bg-card);border-radius:var(--radius-lg);padding:40px;margin-bottom:24px;border:1px solid var(--border-light);box-shadow:var(--shadow-sm);transition:box-shadow .3s}.sc:hover{box-shadow:var(--shadow-md)}
+        .sn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background:linear-gradient(135deg,var(--primary),var(--primary-light));color:#fff;font-size:14px;font-weight:700;border-radius:8px;margin-bottom:12px;font-family:var(--font-mono)}
+        .sc h2{font-family:var(--font-display);font-size:26px;color:var(--text);margin-bottom:20px;line-height:1.25}.sc h3{font-size:18px;font-weight:700;color:var(--primary-dark);margin:28px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--border-light)}.sc h4{font-size:15px;font-weight:700;color:var(--text);margin:20px 0 8px}.sc p{margin-bottom:14px;color:var(--text-secondary);line-height:1.75}.sc ul,.sc ol{margin:12px 0 16px 20px;color:var(--text-secondary)}.sc li{margin-bottom:6px;line-height:1.65}.sc a{color:var(--primary);text-decoration:underline;text-decoration-color:rgba(11,94,215,.3);text-underline-offset:3px}.sc a:hover{text-decoration-color:var(--primary)}
+        .ib{padding:16px 20px;border-radius:var(--radius);margin:16px 0;font-size:14.5px;line-height:1.65}.ib.imp{background:var(--bg-section);border-left:3px solid var(--primary);color:var(--primary-dark)}.ib.wrn{background:rgba(11,94,215,.04);border-left:3px solid var(--primary-light);color:var(--text-secondary)}.ib.gua{background:var(--bg-section);border-left:3px solid var(--primary);color:var(--primary-dark)}.ib strong{display:block;margin-bottom:4px;color:var(--primary-dark)}
+        .dt{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}.dt th{text-align:left;padding:12px 16px;background:var(--bg-section);font-weight:600;color:var(--primary-dark);border-bottom:2px solid var(--border);font-size:13px;text-transform:uppercase;letter-spacing:.04em}.dt td{padding:11px 16px;border-bottom:1px solid var(--border-light);color:var(--text-secondary)}.dt tr:last-child td{border-bottom:none}.dt tr:hover td{background:rgba(11,94,215,.02)}
+        .cc{background:var(--bg-section);border-radius:var(--radius);padding:20px 24px;margin:16px 0}.cc p{margin-bottom:6px;font-size:14.5px}.cc strong{color:var(--text)}
+        .spb{background:var(--bg-section);border:1px solid var(--border);border-radius:var(--radius);padding:20px 24px;margin-bottom:24px;display:flex;align-items:center;gap:16px}.spb-i{width:48px;height:48px;background:linear-gradient(135deg,var(--primary),var(--primary-light));border-radius:12px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:22px;flex-shrink:0}.spb-t{font-size:14.5px;color:var(--text-secondary);line-height:1.6}.spb-t strong{display:block;font-size:15px;margin-bottom:2px;color:var(--primary-dark)}
+        .ft{background:var(--primary-dark);color:rgba(255,255,255,.7);padding:48px 24px 32px;text-align:center}.ft-in{max-width:600px;margin:0 auto}.ft-l{font-family:var(--font-display);font-size:22px;color:#fff;margin-bottom:12px}.ft-in p{font-size:14px;line-height:1.7;margin-bottom:8px}.ft-in a{color:var(--primary-light);text-decoration:none}.ft-d{width:48px;height:2px;background:rgba(255,255,255,.15);margin:24px auto}.ft-lg{font-size:12px;color:rgba(255,255,255,.4)}
+        .mtb{display:none;position:fixed;bottom:24px;right:24px;z-index:200;width:52px;height:52px;border-radius:50%;background:var(--primary);color:#fff;border:none;box-shadow:var(--shadow-lg);cursor:pointer;font-size:20px;align-items:center;justify-content:center}.mo{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:150;backdrop-filter:blur(4px)}.mo.open{display:block}
+        @keyframes fiu{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}@keyframes fid{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+        @media(max-width:900px){.ml{grid-template-columns:1fr;gap:0;padding:24px 16px 64px}.sb{position:fixed;top:0;left:-320px;width:300px;height:100vh;background:var(--bg-card);z-index:160;padding:24px 20px;border-right:1px solid var(--border);box-shadow:var(--shadow-lg);transition:left .3s}.sb.open{left:0}.mtb{display:flex}.sc{padding:28px 20px;border-radius:var(--radius)}.hero{padding:56px 20px 48px}.hm{gap:20px}.hdr-in{height:60px}html{scroll-padding-top:72px}.spb{flex-direction:column;text-align:center}}
+        @media(max-width:480px){.hero h1{font-size:28px}.sc h2{font-size:22px}.logo-t{font-size:15px}.hero-logo{width:64px;height:64px;border-radius:16px}}
+        @media print{.hdr,.sb,.mtb,.ls{display:none!important}.ml{grid-template-columns:1fr}.sc{box-shadow:none;border:1px solid #ddd;break-inside:avoid}}
+    </style>
+</head>
+<body>
+<header class="hdr" id="H"><div class="hdr-in">
+    <a href="#" class="logo">
+        <img src="logo.png" alt="Vagner Bom Jesus" class="logo-img">
+        <div class="logo-w"><span class="logo-t">Vagner Bom Jesus</span><span class="logo-s" id="LS">Privacy Policy</span></div>
+    </a>
+    <div class="ls"><button class="lb" onclick="sw('pt')" id="bP">PT</button><button class="lb active" onclick="sw('en')" id="bE">EN</button></div>
+</div></header>
+
+<section class="hero"><div class="hero-in">
+    <img src="logo.png" alt="Vagner Bom Jesus" class="hero-logo">
+    <div class="hb"><span class="dot"></span><span id="HB">Legal Document</span></div>
+    <h1 id="HT">Privacy Policy</h1>
+    <p id="HD">This policy applies to all applications developed and published by Vagner Bom Jesus. Your privacy is paramount to us.</p>
+    <div class="hm">
+        <div class="hmi"><span class="l" id="ML1">Version</span><span class="v">1.0.0</span></div>
+        <div class="hmi"><span class="l" id="ML2">Effective Date</span><span class="v">20/12/2025</span></div>
+        <div class="hmi"><span class="l" id="ML3">Legislation</span><span class="v">GDPR (EU 2016/679)</span></div>
+        <div class="hmi"><span class="l" id="ML4">Scope</span><span class="v" id="MV4">All Applications</span></div>
+    </div>
+</div></section>
+
+<div class="ml">
+<aside class="sb" id="SB">
+    <div class="tt" id="TT">Contents</div>
+    <nav class="lc" data-lang="pt"><ol class="tl">
+        <li><a href="#s1p">1. Introdução</a></li><li><a href="#s2p">2. Âmbito de Aplicação</a></li><li><a href="#s3p">3. Responsável pelo Tratamento</a></li><li><a href="#s4p">4. Informações que Recolhemos</a></li><li><a href="#s5p">5. Utilização das Informações</a></li><li><a href="#s6p">6. Partilha de Informações</a></li><li><a href="#s7p">7. Cookies e Tecnologias</a></li><li><a href="#s8p">8. Armazenamento e Segurança</a></li><li><a href="#s9p">9. Os Seus Direitos</a></li><li><a href="#s10p">10. Privacidade de Menores</a></li><li><a href="#s11p">11. Transferências Internacionais</a></li><li><a href="#s12p">12. Links de Terceiros</a></li><li><a href="#s13p">13. Alterações à Política</a></li><li><a href="#s14p">14. Contactos e Reclamações</a></li><li><a href="#s15p">15. Legislação Aplicável</a></li><li><a href="#s16p">16. Aceitação desta Política</a></li>
+    </ol></nav>
+    <nav class="lc active" data-lang="en"><ol class="tl">
+        <li><a href="#s1e">1. Introduction</a></li><li><a href="#s2e">2. Scope of Application</a></li><li><a href="#s3e">3. Data Controller</a></li><li><a href="#s4e">4. Information We Collect</a></li><li><a href="#s5e">5. How We Use Information</a></li><li><a href="#s6e">6. Information Sharing</a></li><li><a href="#s7e">7. Cookies &amp; Technologies</a></li><li><a href="#s8e">8. Data Storage &amp; Security</a></li><li><a href="#s9e">9. Your Rights</a></li><li><a href="#s10e">10. Children's Privacy</a></li><li><a href="#s11e">11. International Transfers</a></li><li><a href="#s12e">12. Third-Party Links</a></li><li><a href="#s13e">13. Policy Changes</a></li><li><a href="#s14e">14. Contact &amp; Complaints</a></li><li><a href="#s15e">15. Applicable Law</a></li><li><a href="#s16e">16. Acceptance of Policy</a></li>
+    </ol></nav>
+</aside>
+
+<main class="ct">
+<!-- === EN (default) === -->
+<div class="lc active" data-lang="en">
+<div class="spb"><div class="spb-i">🛡</div><div class="spb-t"><strong>Unified Policy</strong>This privacy policy applies to <strong>all mobile applications, web applications and digital services</strong> developed and published by Vagner Bom Jesus, including applications on Google Play Store, Apple App Store and other platforms.</div></div>
+
+<article class="sc" id="s1e"><div class="sn">1</div><h2>Introduction</h2><p>Your privacy is paramount to us. This Privacy Policy clearly explains what information we collect, how we use, store, and protect that data, your rights, and how to contact us.</p><p>All our applications are developed with a commitment to the highest data protection standards, in compliance with GDPR and applicable legislation.</p><div class="ib imp"><strong>IMPORTANT</strong>By using any of our applications, you agree to this Privacy Policy. If you disagree, we recommend not using our applications.</div></article>
+
+<article class="sc" id="s2e"><div class="sn">2</div><h2>Scope of Application</h2><p>This Privacy Policy applies to:</p><ul><li>All mobile applications on Google Play Store and Apple App Store</li><li>Web applications and associated digital services</li><li>Extensions, updates, or derivative versions</li><li>Related websites and support pages</li></ul><p>References to "application", "app", or "service" cover all the above unless stated otherwise in a specific application's policy.</p><div class="ib imp"><strong>NOTE</strong>Individual applications may include additional terms that complement (but do not replace) this general policy. In conflict, the more protective terms prevail.</div></article>
+
+<article class="sc" id="s3e"><div class="sn">3</div><h2>Data Controller</h2><div class="cc"><p><strong>Controller:</strong> Vagner Bom Jesus</p><p><strong>Email:</strong> <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a></p><p><strong>Territory:</strong> Portugal / São Tomé and Príncipe</p><p><strong>Google Play ID:</strong> 6969178517029891952</p></div></article>
+
+<article class="sc" id="s4e"><div class="sn">4</div><h2>Information We Collect</h2><p>Depending on the application and features enabled:</p><h3>4.1. User-Provided</h3><ul><li>Name, username, email, profile picture</li><li>Gender and location (optional)</li><li>Uploaded images and files</li><li>Language, theme, favorites, customizations</li></ul><div class="ib imp"><strong>NOTE</strong>Collected only when users voluntarily provide it.</div><h3>4.2. Automatic</h3><ul><li>Device model, OS, app version, identifiers</li><li>Pages, features, usage time and frequency</li><li>Approximate (IP) or precise location (with permission)</li><li>IP, browser, language, time zone, connectivity</li></ul><h3>4.3. Third-Party Services</h3><ul><li><strong>Auth:</strong> Google Sign-In, Apple Sign-In</li><li><strong>Analytics:</strong> Firebase, Facebook Analytics</li><li><strong>Ads:</strong> Google AdMob (when applicable)</li><li><strong>Media:</strong> Audio/video players, streaming</li><li><strong>Storage:</strong> Firebase, Google Cloud, AWS</li></ul><p>Policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a> · <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a> · <a href="https://www.facebook.com/privacy/explanation" target="_blank" rel="noopener">Meta</a></p></article>
+
+<article class="sc" id="s5e"><div class="sn">5</div><h2>How We Use Information</h2><h3>5.1. Service</h3><ul><li>Access and functionality</li><li>Personalization</li><li>Feature development and improvement</li><li>Bug fixes and optimization</li></ul><h3>5.2. Communication</h3><ul><li>Update notifications</li><li>Technical support</li><li>Terms changes</li></ul><h3>5.3. Security</h3><ul><li>Fraud detection and prevention</li><li>Application and user protection</li></ul><h3>5.4. Analytics</h3><ul><li>Usage patterns</li><li>Aggregated anonymous statistics</li></ul><h3>5.5. Legal</h3><ul><li>Regulatory obligations</li><li>Rights protection</li></ul></article>
+
+<article class="sc" id="s6e"><div class="sn">6</div><h2>Information Sharing</h2><div class="ib gua"><strong>NON-COMMERCIALIZATION GUARANTEE</strong>We do not sell, rent, or trade your personal data with third parties.</div><h3>6.1. Service Providers</h3><p>Auxiliary companies (hosting, analytics, auth, infrastructure) with limited access and contractual confidentiality obligations.</p><h3>6.2. Legal Compliance</h3><p>Disclosure when legally required: court orders, rights protection, fraud prevention.</p><h3>6.3. Business Transfers</h3><p>In merger/acquisition, data transferred with user notification.</p></article>
+
+<article class="sc" id="s7e"><div class="sn">7</div><h2>Cookies &amp; Technologies</h2><p>We don't directly use cookies. Third-party services may use cookies for experience, statistics, and personalization.</p><ul><li><strong>iOS:</strong> Settings &gt; Privacy &gt; Advertising</li><li><strong>Android:</strong> Settings &gt; Google &gt; Ads</li></ul><div class="ib wrn"><strong>WARNING</strong>Disabling may limit features.</div></article>
+
+<article class="sc" id="s8e"><div class="sn">8</div><h2>Data Storage &amp; Security</h2><h3>8.1. Location</h3><p>Secure EU servers and certified infrastructure (Google Cloud, AWS, Firebase) — ISO 27001, SOC 2.</p><h3>8.2. Retention</h3><table class="dt"><thead><tr><th>Type</th><th>Period</th></tr></thead><tbody><tr><td>Active Account</td><td>While active</td></tr><tr><td>Deleted Account</td><td>Up to 90 days</td></tr><tr><td>Usage</td><td>Up to 24 months</td></tr><tr><td>Aggregated Analytics</td><td>Indefinitely (anonymized)</td></tr><tr><td>Security Logs</td><td>Up to 12 months</td></tr></tbody></table><h3>8.3. Measures</h3><ul><li>SSL/TLS encryption in transit and at rest</li><li>Firewalls and intrusion detection</li><li>MFA for admin access</li><li>RBAC and least privilege</li><li>Encrypted automatic backups</li><li>Periodic audits</li></ul><div class="ib wrn"><strong>WARNING</strong>No transmission is 100% secure. Protect your credentials.</div></article>
+
+<article class="sc" id="s9e"><div class="sn">9</div><h2>Your Rights (GDPR)</h2><h3>9.1. Access</h3><p>Copy of your personal data.</p><h3>9.2. Rectification</h3><p>Correction of incorrect data.</p><h3>9.3. Erasure</h3><p>Deletion when data unnecessary or consent withdrawn.</p><h3>9.4. Restriction</h3><p>Processing restriction in specific situations.</p><h3>9.5. Portability</h3><p>Data in structured, machine-readable format.</p><h3>9.6. Object</h3><p>Object to legitimate interests or direct marketing.</p><h3>9.7. Withdraw Consent</h3><p>Any time, without affecting prior processing.</p><h3>9.8. Exercise</h3><div class="cc"><p><strong>Email:</strong> <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a></p><p><strong>Subject:</strong> "GDPR Rights – [App Name]"</p><p><strong>Time:</strong> 30 days · <strong>Cost:</strong> Free</p></div></article>
+
+<article class="sc" id="s10e"><div class="sn">10</div><h2>Children's Privacy</h2><div class="ib imp"><strong>STRICT POLICY</strong>Our applications are not intended for children under 13. We do not intentionally collect data from children under 13.</div><p>If detected, we immediately delete. Parents/guardians: contact <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a>. Ages 13-18: parental supervision recommended.</p></article>
+
+<article class="sc" id="s11e"><div class="sn">11</div><h2>International Transfers</h2><p>Transfers outside EEA protected by standard contractual clauses, adequacy decisions, binding rules, encryption, and audits. You may request transfer information.</p></article>
+
+<article class="sc" id="s12e"><div class="sn">12</div><h2>Third-Party Links</h2><p>Applications may contain external links. We don't control third-party content or policies.</p><div class="ib wrn"><strong>RECOMMENDATION</strong>Read privacy policies of all sites you visit.</div></article>
+
+<article class="sc" id="s13e"><div class="sn">13</div><h2>Policy Changes</h2><table class="dt"><thead><tr><th>Type</th><th>Notification</th><th>Timeline</th></tr></thead><tbody><tr><td>Minor</td><td>Date update</td><td>Immediate</td></tr><tr><td>Substantial</td><td>Push, email, 30-day notice</td><td>Min. 30 days</td></tr></tbody></table><p>Continued use = acceptance. Version history available on request.</p></article>
+
+<article class="sc" id="s14e"><div class="sn">14</div><h2>Contact &amp; Complaints</h2><div class="cc"><p><strong>Email:</strong> <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a></p><p><strong>Subject:</strong> "Privacy – [App Name]"</p><p><strong>Response:</strong> Up to 30 business days</p></div><h3>Supervisory Authority</h3><div class="cc"><p><strong>CNPD</strong> – Av. D. Carlos I, 134, 1º, 1200-651 Lisbon</p><p><a href="https://www.cnpd.pt" target="_blank" rel="noopener">www.cnpd.pt</a> · <a href="mailto:geral@cnpd.pt">geral@cnpd.pt</a> · (+351) 213 928 400</p></div><p>EU: <a href="https://edpb.europa.eu/about-edpb/board/members_en" target="_blank" rel="noopener">edpb.europa.eu</a></p></article>
+
+<article class="sc" id="s15e"><div class="sn">15</div><h2>Applicable Law</h2><ul><li>Law No. 58/2019 · Portuguese Civil Code</li><li>GDPR (EU 2016/679) · Directive 2002/58/EC</li></ul><p><strong>Jurisdiction:</strong> Portuguese courts · <strong>Law:</strong> Portuguese</p></article>
+
+<article class="sc" id="s16e"><div class="sn">16</div><h2>Acceptance of Policy</h2><p>By using any application, you confirm reading, understanding, and accepting this policy. Consent is free, specific, informed, and unambiguous. Withdraw any time via <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a>, account deletion, or uninstall.</p><div class="ib wrn"><strong>MINORS</strong>Under 13: do not use. 13-18: parental consent required.</div></article>
+</div>
+
+<!-- === PT === -->
+<div class="lc" data-lang="pt">
+<div class="spb"><div class="spb-i">🛡</div><div class="spb-t"><strong>Política Unificada</strong>Esta política de privacidade é aplicável a <strong>todas as aplicações móveis, web e serviços digitais</strong> desenvolvidos e publicados por Vagner Bom Jesus, incluindo aplicações disponíveis na Google Play Store, Apple App Store e outras plataformas.</div></div>
+
+<article class="sc" id="s1p"><div class="sn">1</div><h2>Introdução</h2><p>A sua privacidade é fundamental para nós. Esta Política de Privacidade explica de forma clara e transparente que informações recolhemos através das nossas aplicações, como utilizamos, armazenamos e protegemos esses dados, quais são os seus direitos e como pode contactar-nos.</p><p>Todas as nossas aplicações são desenvolvidas com o compromisso de respeitar os mais elevados padrões de proteção de dados, em conformidade com o RGPD e a legislação aplicável.</p><div class="ib imp"><strong>IMPORTANTE</strong>Ao utilizar qualquer uma das nossas aplicações, o utilizador concorda com os termos desta Política de Privacidade. Caso não concorde, recomendamos que não utilize as nossas aplicações.</div></article>
+
+<article class="sc" id="s2p"><div class="sn">2</div><h2>Âmbito de Aplicação</h2><p>Esta Política de Privacidade aplica-se a:</p><ul><li>Todas as aplicações móveis publicadas na Google Play Store e Apple App Store</li><li>Aplicações web e serviços digitais associados</li><li>Quaisquer extensões, atualizações ou versões derivadas</li><li>Websites e páginas de suporte relacionados</li></ul><p>A referência a "aplicação", "app" ou "serviço" abrange todos os produtos acima mencionados, salvo indicação contrária numa política individual.</p><div class="ib imp"><strong>NOTA</strong>Aplicações individuais podem incluir termos adicionais que complementam (mas não substituem) esta política geral. Em caso de conflito, prevalecem os termos mais protetivos para o utilizador.</div></article>
+
+<article class="sc" id="s3p"><div class="sn">3</div><h2>Responsável pelo Tratamento de Dados</h2><div class="cc"><p><strong>Responsável:</strong> Vagner Bom Jesus</p><p><strong>Email:</strong> <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a></p><p><strong>Território:</strong> Portugal / República Democrática de São Tomé e Príncipe</p><p><strong>ID Google Play:</strong> 6969178517029891952</p></div></article>
+
+<article class="sc" id="s4p"><div class="sn">4</div><h2>Informações que Recolhemos</h2><p>Dependendo da aplicação e funcionalidades ativadas, poderemos recolher:</p><h3>4.1. Informações Fornecidas pelo Utilizador</h3><ul><li>Nome, nome de utilizador e email</li><li>Fotografia de perfil</li><li>Género e localização (opcionais)</li><li>Imagens e ficheiros carregados</li><li>Configurações de idioma, temas, favoritos e personalizações</li></ul><div class="ib imp"><strong>NOTA</strong>Recolhidas apenas quando o utilizador opta voluntariamente por fornecê-las.</div><h3>4.2. Informações Automáticas</h3><ul><li>Modelo do dispositivo, SO, versão da app e identificadores</li><li>Páginas e funcionalidades utilizadas, tempo e frequência</li><li>Localização aproximada (IP) ou precisa (com permissão)</li><li>Endereço IP, navegador, idioma, fuso horário, conectividade</li></ul><h3>4.3. Serviços de Terceiros</h3><p>As nossas aplicações podem integrar:</p><ul><li><strong>Autenticação:</strong> Google Sign-In, Apple Sign-In</li><li><strong>Análise:</strong> Google Analytics for Firebase, Facebook Analytics</li><li><strong>Publicidade:</strong> Google AdMob (quando aplicável)</li><li><strong>Multimédia:</strong> Players de áudio/vídeo, streaming</li><li><strong>Armazenamento:</strong> Firebase, Google Cloud, AWS</li></ul><p>Políticas: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a> · <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a> · <a href="https://www.facebook.com/privacy/explanation" target="_blank" rel="noopener">Meta</a></p></article>
+
+<article class="sc" id="s5p"><div class="sn">5</div><h2>Como Utilizamos as Informações</h2><h3>5.1. Serviço</h3><ul><li>Acesso e funcionamento das aplicações</li><li>Personalização da experiência</li><li>Desenvolvimento e melhoria de funcionalidades</li><li>Correção de erros e otimização</li></ul><h3>5.2. Comunicação</h3><ul><li>Notificações de atualizações</li><li>Suporte técnico</li><li>Alterações aos termos</li></ul><h3>5.3. Segurança</h3><ul><li>Deteção e prevenção de fraudes</li><li>Proteção das aplicações e utilizadores</li></ul><h3>5.4. Análise</h3><ul><li>Padrões de utilização</li><li>Estatísticas agregadas e anónimas</li></ul><h3>5.5. Legal</h3><ul><li>Obrigações legais e regulamentares</li><li>Proteção de direitos</li></ul></article>
+
+<article class="sc" id="s6p"><div class="sn">6</div><h2>Partilha de Informações</h2><div class="ib gua"><strong>GARANTIA DE NÃO COMERCIALIZAÇÃO</strong>Não vendemos, alugamos ou comercializamos os seus dados pessoais com terceiros.</div><h3>6.1. Prestadores de Serviços</h3><p>Empresas auxiliares (hospedagem, análise, autenticação, infraestrutura) com acesso limitado e obrigação contratual de confidencialidade.</p><h3>6.2. Cumprimento Legal</h3><p>Divulgação quando legalmente obrigados: ordens judiciais, proteção de direitos, prevenção de fraudes.</p><h3>6.3. Transferências Empresariais</h3><p>Em fusão/aquisição, dados transferidos com notificação aos utilizadores.</p></article>
+
+<article class="sc" id="s7p"><div class="sn">7</div><h2>Cookies e Tecnologias</h2><p>Não utilizamos cookies diretamente. Serviços de terceiros podem utilizar cookies para experiência, estatísticas e personalização.</p><ul><li><strong>iOS:</strong> Definições &gt; Privacidade &gt; Publicidade</li><li><strong>Android:</strong> Definições &gt; Google &gt; Anúncios</li></ul><div class="ib wrn"><strong>AVISO</strong>A desativação pode limitar funcionalidades.</div></article>
+
+<article class="sc" id="s8p"><div class="sn">8</div><h2>Armazenamento e Segurança</h2><h3>8.1. Localização</h3><p>Servidores seguros na UE e infraestruturas certificadas (Google Cloud, AWS, Firebase) — ISO 27001 e SOC 2.</p><h3>8.2. Retenção</h3><table class="dt"><thead><tr><th>Tipo</th><th>Período</th></tr></thead><tbody><tr><td>Conta Ativa</td><td>Enquanto ativa</td></tr><tr><td>Conta Eliminada</td><td>Até 90 dias</td></tr><tr><td>Utilização</td><td>Até 24 meses</td></tr><tr><td>Analíticos Agregados</td><td>Indefinido (anonimizados)</td></tr><tr><td>Segurança</td><td>Até 12 meses</td></tr></tbody></table><h3>8.3. Medidas</h3><ul><li>Encriptação SSL/TLS em trânsito e em repouso</li><li>Firewalls e deteção de intrusão</li><li>Autenticação multifator (admin)</li><li>RBAC e privilégio mínimo</li><li>Backups automáticos encriptados</li><li>Auditorias periódicas</li></ul><div class="ib wrn"><strong>AVISO</strong>Nenhuma transmissão é 100% segura. Proteja as suas credenciais.</div></article>
+
+<article class="sc" id="s9p"><div class="sn">9</div><h2>Os Seus Direitos (RGPD)</h2><h3>9.1. Acesso</h3><p>Cópia dos seus dados pessoais.</p><h3>9.2. Retificação</h3><p>Correção de dados incorretos.</p><h3>9.3. Apagamento</h3><p>Eliminação quando dados desnecessários ou consentimento retirado.</p><h3>9.4. Limitação</h3><p>Restrição do processamento em situações específicas.</p><h3>9.5. Portabilidade</h3><p>Dados em formato estruturado e legível.</p><h3>9.6. Oposição</h3><p>Opor-se a interesses legítimos ou marketing direto.</p><h3>9.7. Retirar Consentimento</h3><p>A qualquer momento, sem afetar tratamento anterior.</p><h3>9.8. Exercício</h3><div class="cc"><p><strong>Email:</strong> <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a></p><p><strong>Assunto:</strong> "Direitos RGPD – [Nome da Aplicação]"</p><p><strong>Prazo:</strong> 30 dias · <strong>Custo:</strong> Gratuito</p></div></article>
+
+<article class="sc" id="s10p"><div class="sn">10</div><h2>Privacidade de Menores</h2><div class="ib imp"><strong>POLÍTICA RIGOROSA</strong>As nossas aplicações não se destinam a menores de 13 anos. Não recolhemos intencionalmente dados de crianças menores de 13 anos.</div><p>Se detetarmos dados de menores de 13, eliminaremos imediatamente. Pais/tutores: contactem <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a>. Utilizadores 13-18: recomendamos supervisão parental.</p></article>
+
+<article class="sc" id="s11p"><div class="sn">11</div><h2>Transferências Internacionais</h2><p>Transferências fora do EEE protegidas por cláusulas contratuais-tipo, decisões de adequação, normas vinculativas, encriptação e auditorias. Pode solicitar informações sobre transferências.</p></article>
+
+<article class="sc" id="s12p"><div class="sn">12</div><h2>Links de Terceiros</h2><p>As aplicações podem conter links externos. Não controlamos conteúdo ou políticas de terceiros.</p><div class="ib wrn"><strong>RECOMENDAÇÃO</strong>Leia as políticas de privacidade de todos os sites que visita.</div></article>
+
+<article class="sc" id="s13p"><div class="sn">13</div><h2>Alterações à Política</h2><table class="dt"><thead><tr><th>Tipo</th><th>Notificação</th><th>Prazo</th></tr></thead><tbody><tr><td>Menores</td><td>Atualização de data</td><td>Imediato</td></tr><tr><td>Substanciais</td><td>Push, email, aviso 30 dias</td><td>Mín. 30 dias</td></tr></tbody></table><p>Uso continuado = aceitação. Histórico disponível a pedido.</p></article>
+
+<article class="sc" id="s14p"><div class="sn">14</div><h2>Contactos e Reclamações</h2><div class="cc"><p><strong>Email:</strong> <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a></p><p><strong>Assunto:</strong> "Privacidade – [Nome da Aplicação]"</p><p><strong>Prazo:</strong> Até 30 dias úteis</p></div><h3>Autoridade de Supervisão</h3><div class="cc"><p><strong>CNPD</strong> – Av. D. Carlos I, 134, 1º, 1200-651 Lisboa</p><p><a href="https://www.cnpd.pt" target="_blank" rel="noopener">www.cnpd.pt</a> · <a href="mailto:geral@cnpd.pt">geral@cnpd.pt</a> · (+351) 213 928 400</p></div><p>UE: <a href="https://edpb.europa.eu/about-edpb/board/members_pt" target="_blank" rel="noopener">edpb.europa.eu</a></p></article>
+
+<article class="sc" id="s15p"><div class="sn">15</div><h2>Legislação Aplicável</h2><ul><li>Lei n.º 58/2019 · Código Civil Português</li><li>RGPD (UE 2016/679) · Diretiva 2002/58/CE</li></ul><p><strong>Jurisdição:</strong> Tribunais portugueses · <strong>Lei:</strong> Portuguesa</p></article>
+
+<article class="sc" id="s16p"><div class="sn">16</div><h2>Aceitação desta Política</h2><p>Ao utilizar qualquer aplicação, confirma que leu, compreendeu e aceita esta política. Consentimento livre, específico, informado e inequívoco. Retire a qualquer momento via <a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a>, eliminação de conta ou desinstalação.</p><div class="ib wrn"><strong>MENORES</strong>Menos de 13: não utilizar. 13-18: consentimento parental obrigatório.</div></article>
+</div>
+
+<!-- VERSION -->
+<article class="sc"><h2>Version Control / Controlo de Versões</h2><table class="dt"><thead><tr><th>Version</th><th>Date</th><th>Changes</th></tr></thead><tbody><tr><td>1.0.0</td><td>20/12/2025</td><td>Initial release / Publicação inicial</td></tr></tbody></table><div class="ib imp" style="margin-top:20px;text-align:center"><p style="margin:0;font-size:13px">GDPR (EU 2016/679) · Law 58/2019 · App Store · Google Play Store</p></div></article>
+</main>
+</div>
+
+<footer class="ft"><div class="ft-in">
+    <div class="ft-l">Vagner Bom Jesus</div>
+    <p id="FD">Privacy Policy · All Applications</p>
+    <p><a href="mailto:vagneripg@gmail.com">vagneripg@gmail.com</a></p>
+    <div class="ft-d"></div>
+    <p class="ft-lg">© 2025 Vagner Bom Jesus. All rights reserved / Todos os direitos reservados.</p>
+    <p class="ft-lg" style="margin-top:4px">GDPR (EU 2016/679) · Law 58/2019 · App Store · Google Play Store</p>
+</div></footer>
+
+<button class="mtb" id="MB" aria-label="Menu">☰</button>
+<div class="mo" id="MO"></div>
+
+<script>
+let cl='en';
+function sw(l){cl=l;document.querySelectorAll('.lc').forEach(e=>e.classList.toggle('active',e.dataset.lang===l));document.getElementById('bP').classList.toggle('active',l==='pt');document.getElementById('bE').classList.toggle('active',l==='en');const t={pt:{HB:'Documento Legal',HT:'Política de Privacidade',HD:'Esta política aplica-se a todas as aplicações desenvolvidas e publicadas por Vagner Bom Jesus. A sua privacidade é fundamental para nós.',ML1:'Versão',ML2:'Data de Efeito',ML3:'Legislação',ML4:'Âmbito',MV4:'Todas as Aplicações',TT:'Índice',LS:'Política de Privacidade',FD:'Política de Privacidade · Todas as Aplicações',hl:'pt'},en:{HB:'Legal Document',HT:'Privacy Policy',HD:'This policy applies to all applications developed and published by Vagner Bom Jesus. Your privacy is paramount to us.',ML1:'Version',ML2:'Effective Date',ML3:'Legislation',ML4:'Scope',MV4:'All Applications',TT:'Contents',LS:'Privacy Policy',FD:'Privacy Policy · All Applications',hl:'en'}};const d=t[l];Object.keys(d).forEach(k=>{const e=document.getElementById(k);if(e){if(k==='hl')document.documentElement.lang=d[k];else e.textContent=d[k]}});ut()}
+const h=document.getElementById('H');window.addEventListener('scroll',()=>{h.classList.toggle('scrolled',window.scrollY>10);ut()});
+function ut(){const s=cl==='pt'?'p':'e';const secs=document.querySelectorAll(`[id^="s"][id$="${s}"].sc`);const links=document.querySelectorAll(`.lc[data-lang="${cl}"] .tl a`);let c='';secs.forEach(x=>{if(x.getBoundingClientRect().top<150)c=x.id});links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+c))}
+const sb=document.getElementById('SB'),mb=document.getElementById('MB'),mo=document.getElementById('MO');
+mb.addEventListener('click',()=>{sb.classList.toggle('open');mo.classList.toggle('open')});
+mo.addEventListener('click',()=>{sb.classList.remove('open');mo.classList.remove('open')});
+document.querySelectorAll('.tl a').forEach(a=>a.addEventListener('click',()=>{sb.classList.remove('open');mo.classList.remove('open')}));
+</script>
+</body>
+</html>
